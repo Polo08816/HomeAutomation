@@ -1,0 +1,9 @@
+2018-4-20
+
+Initial breadboard setup.  I did not realize the breadboard was actually two separate circuits.  It took a while to get the simple LED test to work.
+
+First problem was that the Raspberry Pi 3 Model B+ was so new that GPIO.readall command gave an error.  I had to update the wiringpi model to 2.46 from 2.44.
+
+https://www.raspberrypi.org/forums/viewtopic.php?t=208735
+
+The second problem was how to diagnose the LED problem.  When running test.py, the simple LED did not light up.  GPIO.readall showed that the values were registering programmatically.  I used an actual voltmeter on the wedge which was attached to the breadboard.  The board mode was correct.  The output registered correctly on the voltmeter so I suspected the problem lie with the either the breadboard or the hardware.  I moved one end of the resister to a closer position on the negative 3.3V rail and the LED worked.
