@@ -1,0 +1,8 @@
+Setup of ZWay
+
+1.  Download ZWay onto Raspberry Pi 3
+2.  Plug in UZB1 (Usb zwave controller)
+3.  Determine that it is in fact plugged in *lsusb
+4.  It's either ttyACM0 or ttyAMA0.  Ours was ttyACM0.  Specify that in "Z Wave Network Access Page".
+5.  Run script to change country code of the UZB1 to US due to different frequencies per country.
+
