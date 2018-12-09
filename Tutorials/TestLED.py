@@ -2,12 +2,12 @@ import RPi.GPIO as GPIO
 import time
 
 
-#pin definitions
+#pin definitions for light LED
 ledPin = 22
 
 GPIO.setmode(GPIO.BCM)
 
-GPIO.setup(ledPin, GPIO.OUT)
+GPIO.setup(ledPin, GPIO.OUT) 
 
 print("LED On!")
 
