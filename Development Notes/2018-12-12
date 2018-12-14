@@ -1,0 +1,25 @@
+Tried to add the Leviton Plug In outlet.  ZWay kept saying that "inclusion" was taking too long.
+
+Viewed the log file below:
+
+pi@raspberrypi:/var/log $ tail -f /var/log/z-way-server.log 
+[2018-12-12 19:28:43.620] [I] [zway] Adding job: Remove node from network
+[2018-12-12 19:28:43.622] [D] [zway] SENDING (cb 0x00): ( 01 05 00 4B 05 00 B4 )
+[2018-12-12 19:28:43.624] [D] [zway] RECEIVED ACK
+[2018-12-12 19:28:43.624] [I] [zway] Job 0x4b (Remove node from network): Stop done
+[2018-12-12 19:28:43.624] [D] [zway] Job 0x4b (Remove node from network): success
+[2018-12-12 19:28:43.624] [I] [zway] Removing job: Remove node from network
+[2018-12-12 19:28:43.624] [D] [zway] SETDATA controller.data.controllerState = 0 (0x00000000)
+[2018-12-12 19:29:03.772] [D] [zway] Job 0x4b: deleted from queue
+[2018-12-12 19:29:42.796] [I] [zway] Max number of devices (1) reached
+[2018-12-12 19:30:27.869] [I] [core] Failed to update/remove network statistics. Error: Operation not supported
+[2018-12-12 19:33:14.919] [I] [zway] Max number of devices (1) reached
+[2018-12-12 19:35:14.974] [I] [zway] Max number of devices (1) reached
+
+
+
+Max number of devices = 1.  This was an actual licensing issue.
+The licensing issue is specific to the ZWave hardware used.  In this case, we used the UZB1
+device.  If we had used the ZWave GPIO Daughter card, licensing is not required.
+
+Went online to purchase a license/key.

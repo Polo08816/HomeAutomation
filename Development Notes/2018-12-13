@@ -1,0 +1,13 @@
+Received the key today.  Inclusing finally worked.  
+
+ZWave recognized the Leviton plug as a binary switch.
+
+See log file for commands.  This may be important when constructing json requests to the ZWave
+application:
+
+[2018-12-13 21:41:25.233] [I] [zway] Waiting for job reply: SwitchBinary Get
+[2018-12-13 21:41:25.249] [D] [zway] RECEIVED: ( 01 09 00 04 00 02 03 25 03 00 D5 )
+[2018-12-13 21:41:25.249] [D] [zway] SENT ACK
+[2018-12-13 21:41:25.249] [D] [zway] SETDATA devices.2.data.lastReceived = 0 (0x00000000)
+[2018-12-13 21:41:25.249] [D] [zway] Received reply on job (SwitchBinary Get)
+[2018-12-13 21:41:25.249] [D] [zway] SETDATA devices.2.instances.0.commandClasses.37.data.level = False
