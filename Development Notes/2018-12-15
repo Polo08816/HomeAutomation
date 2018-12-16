@@ -1,0 +1,23 @@
+Added logic for turning on the Leviton switch.  
+
+Did not need to run the the ZWave url in the web browser.
+
+It's already running in the background....
+
+pi@raspberrypi:~ $
+
+top - 11:15:16 up 13:07,  1 user,  load average: 0.13, 0.20, 0.13
+Tasks: 125 total,   1 running,  78 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  2.3 us,  0.8 sy,  0.0 ni, 96.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :   949448 total,   522524 free,   115560 used,   311364 buff/cache
+KiB Swap:   102396 total,   102396 free,        0 used.   768880 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND                    
+  458 root      20   0  143072  48880  24424 S   4.3  5.1   0:50.36 Xorg                       
+ 1693 pi        20   0   47392  19460  16804 S   3.9  2.0   0:01.02 lxterminal                 
+  336 root      20   0  115736  33256  16648 S   2.0  3.5  10:21.86 z-way-server               
+ 1705 pi        20   0    8244   3288   2832 R   1.0  0.3   0:00.24 top                        
+  639 pi        20   0  143480  27448  20248 S   0.7  2.9   2:09.83 lxpanel  
+  
+  
+  

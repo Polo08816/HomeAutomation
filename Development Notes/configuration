@@ -1,0 +1,19 @@
+Hardware:
+
+Raspberry Pi 3 Model B+
+light sensor
+LED
+ZWave - UZB1 (USB ZWave Transciever)
+
+
+Software:
+
+OS - Raspberry Pi Desktop
+Python 2.7.13
+ZWaveMe (Open Source ZWave)
+
+Python add-ons
+pandas (rolling mean)
+
+
+
