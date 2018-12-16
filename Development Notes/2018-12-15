@@ -27,3 +27,6 @@ KiB Swap:   102396 total,   102396 free,        0 used.   768880 avail Mem
  Have to import numpy first then pandas.
  
  sudo apt-get install libatlas-base-dev  ... also need this.
+ 
+ pandas dataframe was a pain to manipulate
+ not as straightforward as it should be
