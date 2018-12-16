@@ -21,3 +21,9 @@ KiB Swap:   102396 total,   102396 free,        0 used.   768880 avail Mem
   
   
   
+ Attempting to implement Pandas.  Having trouble with Thonny IDE.
+ Even though Pandas was installed via pip, Thonny requires to you manage packages.
+ 
+ Have to import numpy first then pandas.
+ 
+ sudo apt-get install libatlas-base-dev  ... also need this.
