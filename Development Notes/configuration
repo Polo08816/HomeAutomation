@@ -14,6 +14,8 @@ ZWaveMe (Open Source ZWave)
 
 Python add-ons
 pandas (rolling mean)
+numpy (rolling mean)
+libatlas-base-dev (strange dependency for pandas and numpy)
 
 
 
